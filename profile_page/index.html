@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+ 
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+<link rel="stylesheet" href="style_1.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+ 
+  <div style="margin-left: 140px;">
+ <img src="a.jfif" style="width: 100px; height: 50px; padding-top: 10px;">
+ <!-- Search form -->
+  <form style="padding-left: 120px; margin-top: -33px;">
+    <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+      aria-label="Search">
+  </form>
+</div>
+
+<!--bellicon-->
+<div style="margin-left:80%; margin-top: -33px;">
+<ul>
+  <i class="fa fa-bell" style="font-size:36px"></i>
+  <i class="fa fa-calendar" aria-hidden="true" style="font-size: 38px;"></i>
+  <img src="b.png" style="width: 30px; height: 30px; margin-bottom: 20px;margin-left: 10px;">
+  
+</ul>
+</div>
+
+<div style="margin-top: 30px; padding-left: 10%;">
+  <div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+    </ul>
+  </div>
+  
+  <div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+    </ul>
+  </div>
+  
+  <div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+    </ul>
+  </div>
+  
+  <div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+    </ul>
+  </div>
+  
+  <div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+    </ul>
+  </div>
+  
+  <div class="btn-group">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+    </ul>
+  </div>
+  
+</div>
+
+<div>
+  <button type="button" class="drawer-toggle drawer-hamburger" data-toggle="tooltip" data-placement="bottom"
+    data-original-title="Menu" style="display: none">
+    <span class="sr-only">toggle navigation </span>
+    <span class="drawer-hamburger-icon"> </span>
+  </button>
+  <span id="DeltaPlaceHolderPageTitleInTitleArea" style="color: cornsilk">My Profile</span>
+
+</div>
+
+<div class="alert alert-info" id="alertConsent" style="margin-top: 30px; margin-left: 11%;" >
+  <div class="form-group">
+      <input type="checkbox" id="chkConsentRef" checked="" readonly="true" disabled="true">
+      <label for="chkConsentRef" style="font-size:12px">
+          Hi this website is created by ajita singh
+      </label>
+      <label id="lblConsentDate" style="font-weight:bold;font-size:11px;display:none">8/29/2021 3:23:00 PM</label>
+  </div>
+
+</div>
+
+
+
+<div class="row" style="position: relative;top: -30px;z-index:999"> 
+  <div class="col-sm-4">
+      <div class="base-profile">		
+      </div>
+  </div>
+<div class="col-sm-4 region" id="empDetails">
+  <div>
+      <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd">
+          <img src="https://mastekgroup.sharepoint.com/_catalogs/masterpage/Shalimar/images/fav-icons-blk/gatepass.png?ctag=210916"
+               alt="..." style="height: 25px"><span style="padding: 10px">Employment Details</span>
+      </h2>
+      <ul>
+          <li>
+              <div id="EmployeeNo" >
+                  <span>Employee No. </span>
+                  <br><span id="txtEmployeeNo">group_1_team</span>
+              </div>
+             
+          </li>
+          <li>
+              <div id="COE" >
+                  <span>Service Line</span>
+                  <br><span id="txtCOE">Software Development</span>
+              </div>
+          </li>
+          <li>
+              <div id="SBUDesc" >
+                  <span>Unit</span>
+                  <br><span id="txtSBUDesc">OCC Development</span>
+              </div>
+          </li>
+          <li>
+              <div id="CCID" >
+                  <span>Cost Center</span>
+                  <br><span id="txtCCID">Talent Pool- Application Development-Off</span>
+              </div>
+          </li>
+          <li>
+              <div id="WBS" style="display: none">
+                  <span>WBS </span>
+                  <br><span id="txtWBS"></span>
+              </div>
+          </li>
+          <li>
+              <div id="Area" >
+                  <span>Area </span>
+                  <br><span id="txtArea">Global</span>
+              </div>
+          </li>
+          <li>
+              <div id="SubArea" >
+                  <span>Sub Area </span>
+                  <br><span id="txtSubArea">PAN INDIA</span>
+              </div>
+              <li>
+                  <div id="WorkCenterNo" style="display: none">
+                      <span>Work Center No. </span>
+                      <br><span id="txtWorkCenterNo"></span>
+                  </div>
+              </li>
+      </ul>
+  </div>
+</div>
+<div class="col-sm-4 region" id="orgDetails">
+  <div>
+      <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd">
+          <i class="fa fa-sitemap" style="font-size: 24px"></i><span style="padding: 10px">Organization</span>
+      </h2>
+          <div id="empOrg" style="margin-top: 5%;">
+          <ul id="ulMain" class="Organization" aria-label="Managers">
+              <li><img class="img_Hierarchy" id="img_aakash15085" alt="i:0#.f|membership|aakash15085@mastek.com" width="30" height="30" onerror="imgError(this);" src="https://mastekgroup.sharepoint.com/_vti_bin/DelveApi.ashx/people/profileimage?userId=aakash15085%40mastek.com&amp;size=S" data-themekey="#"><a href=""><span id="span_aakash15085">Aakash Verma</span></a></li>
+              <li><img class="img_Hierarchy" id="img_ajita88388" alt="i:0#.f|membership|ajita88388@mastek.com" width="30" height="30" onerror="imgError(this);" src="https://mastekgroup.sharepoint.com/_vti_bin/DelveApi.ashx/people/profileimage?userId=ajita88388%40mastek.com&amp;size=S" data-themekey="#"><a href=""><span id="span_ajita88388">Ajita</span></a></li>
+              <li><img class="img_Hierarchy" id="img_ajay15128" alt="i:0#.f|membership|ajay15128@mastek.com" width="30" height="30" onerror="imgError(this);" src="https://mastekgroup.sharepoint.com/_vti_bin/DelveApi.ashx/people/profileimage?userId=ajay15128%40mastek.com&amp;size=S" data-themekey="#"><a href=""><span id="span_ajay15128">Ajay Yadav</span></a></li>
+      </ul>
+          </div>
+  </div>
+</div>
+</div>
+
+<div class="row" data-confidential="true" style="margin-bottom:30px">
+<!--  style="margin-top: 30px"  -->
+<div class="col-sm-4 confidential-box" id="PersonalDetails">
+  <div>
+      <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd">
+          <i class="fa fa-info-circle" style="font-size: 24px"></i><span style="padding: 0 0 0 10px">
+              Personal Information
+          </span>
+      </h2>
+      <i class="fa fa-lock" style="float: right; color: #ddd; margin-top: -30px; font-size: 15px;">
+      </i>
+      <ul>
+          <li>
+              <div id="Gender">
+                  <span>Gender</span>
+                  <br><span id="txtGender"></span>
+              </div>
+          </li>
+          <li>
+              <div id="DOB">
+                  <span>Birthday</span>
+                  <br><span id="txtDOB"></span>
+              </div>
+          </li>
+         
+          <li>
+
+              <span style="color:#b1aeae">Other Details</span>
+
+              <ul id="ulOtherDetails">
+                  <li>
+                      <div id="dvPassVisa" data-confidential="true" class="confidential">
+
+                          Passport / Visa Details<a target="_blank" href="">
+                              <i class="fa fa-plus-circle"
+                                 style="float: right;" data-toggle="tooltip" data-placement="bottom" data-original-title="Add Passport / Visa Details"></i>
+                          </a>
+                      </div>
+                  </li>
+                  <li>
+                      <div id="dvFamily" data-confidential="true" class="confidential">
+
+                          Family Details<a target="_blank" href=""> <i class="fa fa-plus-circle" style="float: right;" data-toggle="tooltip" data-placement="bottom" data-original-title="Add Family Details"></i></a>
+                      </div>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+    
+  </div>
+</div>
+<div class="col-sm-4 confidential-box" id="ContactDetails">
+  <div>
+      <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd">
+          <i class="fa fa-phone-square" style="font-size: 24px"></i><span style="padding: 10px">Contact Information</span>
+      </h2>
+      <i class="fa fa-lock" style="float: right; color: #ddd; margin-top: -30px; font-size: 15px;"></i>
+      <ul>
+          <li>
+              <div id="dvPersonalEmailId">
+                  <span>Personal Email Id</span><br>
+                  <input type="text" id="PersonalEmailId" value="" disabled>
+
+                  <i class="fa fa-pencil" onclick="enableInput('PersonalEmailId')" data-toggle="tooltip" data-placement="bottom" data-original-title="Edit Personal EmailId" /></i>
+                  <i class="fa fa-save" style="display: none" onclick="saveInput('PersonalEmailId')" data-toggle="tooltip" data-placement="bottom" data-original-title="Save Personal EmailId"></i>
+                  <!-- <i class="fa fa-refresh" style="display: none"  onclick="enableInput('PersonalEmailId')" data-toggle="tooltip" data-placement="bottom" data-original-title="Reset Personal EmailId"></i> -->
+
+                  <div class="edit" style="display:none;margin-top:10px">
+
+
+                      <span>Confirmation Key</span>
+                      <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="Check your email inbox for confirmation Key"></i>   <br>
+
+                      <input type="text" id="ConfirmationKey" maxlength="50" style="width: 45%">
+                      <i class="fa fa-check" onclick="confirmPersonalEmailId()" data-toggle="tooltip" data-placement="bottom" data-original-title="Verify Confirmation Key"></i>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div id="dvResidenceNo">
+                  <span>Residence No</span>
+                  <br>
+                  <input type="text" id="ResidenceNo" value="" disabled data-mobile-no="true" maxlength="15" />&nbsp;<i class="fa fa-pencil" onclick="enableInput('ResidenceNo')" data-toggle="tooltip"
+                                                                                                                                                                                    data-placement="bottom" data-original-title="Save Residence No"></i>
+              </div>
+          </li>
+         
+          <li>
+              <div id="CurrentAddress">
+                  <span id="txtAddresHeader">Current Address</span>
+                  <span id="txtAddress"></span>
+                  <i class="fa fa-pencil" onclick="openEditAddress()" data-toggle="tooltip" data-placement="bottom"
+                     data-original-title="Edit Address" style="display:inline-block"></i> <!--float:right;margin-top: -25px; -->
+                  <i class="fa fa-save" style="display: none;float:right;    margin: 10px;"
+                     onclick="saveAddress()" data-toggle="tooltip" data-placement="bottom" data-original-title="Save Address">
+                  </i>
+
+                  <div class="edit" style="display:none;width: 260px;padding: 10px;border: dashed 1px #aaa;">
+                      <b>Edit Current Address</b><br />
+                      <ul id="ulAddress">
+                          <li>
+                              <div id="dvAddressLine1">
+                                  <span>Address Line 1</span>
+                                  <br />
+                                  <input type="text" id="AddressLine1" value="" style="width: 230px" maxlength="40" />
+                              </div>
+                          </li>
+                          <li>
+                              <div id="dvAddressLine2">
+                                  <span>Address Line 2</span>
+                                  <br />
+                                  <input type="text" id="AddressLine2" value="" style="width: 230px"  maxlength="40" />
+                              </div>
+                          </li>
+                          <li>
+                              <div id="dvCountry">
+                                  <span>Country</span>
+                                  <br />
+                                  <select id="ddlCountry" style="width: 200px">
+                                      <option value="-1">--Select--</option>
+                                  </select>
+                              </div>
+                          </li>
+                          <li>
+                              <div id="dvState">
+                                  <span>State / County</span>
+                                  <br />
+                                  <select id="ddlState" style="width: 200px">
+                                      <option value="-1">--Select--</option>
+                                  </select>
+                              </div>
+                          </li>
+                          <li>
+                              <div id="dvCity">
+                                  <span>City</span>
+                                  <br />
+                                  <input type="text" id="City" value="" />
+                              </div>
+                          </li>
+                          <li>
+                              <div id="dvPostalCode">
+                                  <span>Postal Code</span>
+                                  <br />
+                                  <input type="text" id="PostalCode" value="" />
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+          </li>
+      </ul>
+  </div>
+</div>
+<div class="col-sm-4 confidential-box" id="EmergencyDetails">
+  <div>
+      <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd">
+          <i class="fa fa-ambulance" style="font-size: 24px"></i><span style="padding: 10px">
+              Emergency
+              Details
+          </span>
+      </h2>
+      <i class="fa fa-lock" style="float: right; color: #ddd; margin-top: -30px; font-size: 15px;">
+      </i>
+      <ul>
+          <li>
+              <div id="dvBloodGroup">
+                  <span>Blood Group </span>
+                  <br>
+                  <select id="BloodGroup" disabled style="width: 50%">
+                      <option value="-1">--Select--</option>
+                      <option value="O+">O+</option>
+                      <option value="O-">O-</option>
+                      <option value="A+">A+</option>
+                      <option value="A-">A-</option>
+                      <option value="B+">B+</option>
+                      <option value="B-">B-</option>
+                      <option value="AB+">AB+</option>
+                      <option value="AB-">AB-</option>
+                  </select>
+                  &nbsp;<i class="fa fa-pencil" onclick="enableInput('BloodGroup')" data-toggle="tooltip"
+                           data-placement="bottom" data-original-title="Edit Blood Group"></i><i class="fa fa-save"
+                                                                                                 style="display: none" onclick="saveInput('BloodGroup')" data-toggle="tooltip"
+                                                                                                 data-placement="bottom" data-original-title="Save Blood Group"></i>
+              </div>
+          </li>
+          <li>
+              <div id="dvEmergencyContactName">
+                  <span>Emergency Contact Name </span>
+                  <br>
+                  <input type="text" id="EmergencyContactName" value="XYZ" disabled>&nbsp;<i class="fa fa-pencil" onclick="enableInput('EmergencyContactName')" data-toggle="tooltip"
+                                                                                             data-placement="bottom" data-original-title="Edit Emergency Contact Name"></i><i class="fa fa-save" style="display: none" onclick="saveInput('EmergencyContactName')"
+                                                                                                                                                                              data-toggle="tooltip" data-placement="bottom" data-original-title="Save  Emergency Contact Name"></i>
+              </div>
+          </li>
+          <li>
+              <div id="dvEmergencyContactNo">
+                  <span>Emergency Contact No </span>
+                  <br>
+                  <input type="text" id="EmergencyContactNo" value=""
+                         disabled data-mobile-no="true" maxlength="15">&nbsp;<i class="fa fa-pencil" onclick="enableInput('EmergencyContactNo')"
+                                                                                data-toggle="tooltip" data-placement="bottom" data-original-title="Edit Emergency Contact No"></i><i class="fa fa-save" style="display: none" onclick="saveInput('EmergencyContactNo')"
+                                                                                                                                                                             data-toggle="tooltip" data-placement="bottom" data-original-title="Save Emergency Contact No"></i>
+              </div>
+          </li>
+  </div>
+</div>
+</div>
+
+<div class="row" style="display:none;" id="dvLTD">
+<div class="col-sm-12 confidential-box">
+  <div>
+      <h2 style="padding: 0px 10px 10px 0; border-bottom: solid 1px #ddd">
+          <i class="fa fa-users" style="font-size: 24px"></i><span style="padding: 10px">
+              Leadership Details
+          </span>
+      </h2>
+      <br>
+      <table id="tblLTD" style="font-size:11px" class="table table-bordered"></table>
+  </div>
+</div>
+</div>
+
+
+  
+<div class="row disclaimer" data-confidential="true">
+  <div class="col-sm-12"></div>
+      <div class="alert alert-warning">
+          <p style="margin-top: 10px; font-size: 11px">
+              <strong>Disclaimer : </strong>Lorem Ipsum istry.
+              Why do we use it?
+              It is a long established fact that a reader will be  to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                               or by sending an email to <a href="">
+                  group_1_team_member@mastek.com
+              </a>.
+          </p>
+      </div>
+  </div>
+</div>
+</div>
+  
+<footer class="s4-notdlg">© Copyright 2020 - 2021. All rights reserved | <a href="" target="_blank" style="color:#fff;text-decoration: underline;"> Privacy Notice </a></footer>
+
+</body>
+</html>

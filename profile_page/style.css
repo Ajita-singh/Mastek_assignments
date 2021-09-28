@@ -1,0 +1,1002 @@
+#DeltaPlaceHolderPageTitleInTitleArea {
+    display: block;
+    background: #003d63;
+    padding: 1% 12%;
+    font-size: 20px;
+    color: rgb(207, 14, 14);
+}
+/* .Search{
+   width: 50%!important; 
+   margin-top: -35px;
+    margin-left: 129px;
+
+} */
+.w-75 {
+    width: 44%!important;
+ 
+}
+
+.icon_s{
+    margin-left: 100px;
+}
+
+html, body, .parent {
+    width: 100%;
+    height:100%;
+
+}
+.parent{
+    padding-top: 100px;
+    padding-left: 140px;
+}
+
+.large{
+    height:100%;
+    width:30%;
+    display:inline-block;
+}
+.small{
+    height: 70%;
+    width: 30%;
+    display: inline-block;
+}
+.last_p{
+
+    height: 25%;
+    width: 91%;
+}
+
+.box{
+    width:100%;
+    height:50%;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-left: -25%;
+  }
+
+  .alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    
+}
+.alert {
+    
+    margin-left: 10px;
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+.region li {
+    margin: 3% 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.region ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.col-sm-4>div, #dvLTD .col-sm-12>div {
+    border: solid 1px #ccc;
+}
+
+
+.base-profile {
+    background-color: hsla(0,0%,100%,.98);
+    /* box-shadow: 0 0 0 1px rgb(0 0 0 / 10%); */
+    padding: 20px 30px;
+    margin: 60px 0 0;
+    min-height: 525px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#empDetails > div, #orgDetails > div, .confidential-box > div {
+    /* box-shadow: 0 0 0 1px rgb(0 0 0 / 10%); */
+    /* background-color: hsla(0,0%,100%,.98); */
+    padding: 20px 30px;
+}
+
+.col-sm-4>div, #dvLTD .col-sm-12>div {
+    border: solid 1px #ccc;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#empDetails > div, #orgDetails > div, .confidential-box > div {
+    /* box-shadow: 0 0 0 1px rgb(0 0 0 / 10%); */
+    background-color: hsla(0,0%,100%,.98);
+    padding: 20px 30px;
+}
+
+.col-sm-4>div, #dvLTD .col-sm-12>div {
+    border: solid 1px #ccc;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-header:after, .modal-footer:after {
+    clear: both;
+}
+
+element.style {
+    position: relative;
+    top: -30px;
+    z-index: 999;
+}
+element.style {
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-header:after, .modal-footer:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+element.style {
+    display: none;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-header:after, .modal-footer:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    text-align: left;
+    border: solid 1px #d5ca90;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    text-align: left;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-header:after, .modal-footer:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+element.style {
+    display: none;
+}
+div#dvConsentOuter {
+    width: 100%;
+    border: solid 1px #ddd;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    display: none;
+    z-index: 999999;
+    background-color: #000;
+    opacity: 0.1;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+element.style {
+    display: none;
+}
+
+#dvConsent {
+    border: solid 1px #ddd;
+    padding: 20px;
+    border: 1px solid #c6c6c6;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 47%);
+    width: 800px;
+    position: fixed;
+    top: 100px;
+    left: 20%;
+    z-index: 999999;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+#empDetails > div, #orgDetails > div, .confidential-box > div {
+    /* box-shadow: 0 0 0 1px rgb(0 0 0 / 10%); */
+    /* background-color: hsla(0,0%,100%,.98); */
+    padding: 20px 30px;
+}
+.col-sm-4>div, #dvLTD .col-sm-12>div {
+    border: solid 1px #ccc;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.region {
+    margin-top: 60px;
+    display: inline-grid;
+    min-height: 525px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.ms-webpart-chrome {
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+footer {
+    bottom: 0;
+}
+footer {
+    background-color: #021523;
+    text-align: center;
+    color: white;
+    padding: 16px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: -20px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+footer {
+    display: block;
+}
+style attribute {
+    cursor: default;
+}
+html, body {
+    height: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 13px;
+    overflow: visible;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body, .ms-core-defaultFont, .js-callout-body {
+    color: #323130;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, #hybridTooltipStatusBar, .ms-status-msg, .js-callout-body {
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
