@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery AJAX POST Form</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="response">
+    <pre></pre>
+</div>
+
+<form id="my-form">
+    <input type="text" class="form-control" name="frstname" data-conv="json">
+        <input type="text" class="form-control" name="lastname" data-conv="json">
+        <!-- <input type="button" id="btn" value="button"/> -->
+       
+</form>
+
+
+
+<script type='text/javascript'>
+    function hideLoader(){
+        jQuery('#btn').on('click', function(){
+        var jsonObj = [];
+        var firstname = $('input[name=frstname]').val();
+        var lastname  = $('input[name=lastname]').val();
+        item = {}
+        item ['firstname']  = firstname;
+        item ['lastname']   = lastname;
+
+        jsonObj.push(item);
+        var jsonString = JSON.stringify(jsonObj);
+        alert(jsonString);
+    });
+        
+    }
+</script>
+
+<!-- Your element -->
+<input type='button' value='Hide loader' id="btn" onclick='hideLoader()' />
+</body>
+</html>
