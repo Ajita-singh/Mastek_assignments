@@ -1,0 +1,17 @@
+
+html
+{border: 2px solid rgb(10, 0, 0);
+ display: block;
+ margin: 1px auto;
+}
+/* h3{
+    /* width: 100%;
+    height: 100%; */
+    /* margin-left: 50%; */
+    /* padding: 0; */
+    /* overflow-x: hidden; */
+*/
+
+.abc {
+    margin-left: 1000px;
+}
